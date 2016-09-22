@@ -25,7 +25,7 @@ const EventList = props => {
       <td>{event.eventTimeEnd}</td>
       <td>{event.eventImportance}</td>
       <td>
-      <button onClick={()=> editEvent(event.id)} className="btn btn-sm btn-info" data-toggle="modal" data-target="#myModal">Edit Event</button>
+      <button onClick={()=> editEvent(event.id)} className="btn btn-sm btn-info">Edit Event</button>
       </td>
       <td>
       <button onClick={()=> deleteEvent(event.id)} className="btn btn-sm btn-danger">Delete Event</button>
