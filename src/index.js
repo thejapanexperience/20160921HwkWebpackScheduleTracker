@@ -1,11 +1,12 @@
 const React = require('react');
-const ReactDOM = require('react-dom');
-const jQuery = require('jQuery')
+/*const {ReactDOM} = require('react-dom');
+*/
+const { render } = require('react-dom');
 const App = require('./components/App');  /*relative file path to linked component*/
 
 
 
-ReactDOM.render(
+render(
   <App/>,
   document.getElementById('root')
 )
